@@ -1,0 +1,113 @@
+.{ 
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width:100%;
+    background-image:(pic/\Users\HP\Pictures\2024-09\IMG-20240903-WA0007.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width:80%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .log{
+    width:200px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -1%;
+
+}
+
+ul{
+    margin-top: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight:bold;
+    text-decoration:none;
+    color: black;
+    margin-top: -3%;
+    transition: 0.4s ease;
+
+
+
+}
+
+ul li a:hover{
+    color:red;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color: springgreen;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: red;
+}
+.info a{
+    text-decoration: none;
+    color: afff;
+    background:red;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius:10px;
+    display: inline;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background:  rgb(59,174,209);
+}
+
+.image{
+    width:350px;
+    height: 100px;
+    position: absolute;
+    right: 100px;
+    bottom:0;
+}
+
+.image img{
+    position:absolute;
+    height: 350px;
+    left:40%;
+    transform:translate(-150%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .image{
+    left: 100%;
+
+}
+
+.mark{
+    color:red;
+}
